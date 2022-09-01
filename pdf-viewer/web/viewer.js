@@ -737,7 +737,7 @@ const defaultOptions = {
     kind: OptionKind.VIEWER + OptionKind.PREFERENCE
   },
   defaultZoomValue: {
-    value: "",
+    value: "page-fit",
     kind: OptionKind.VIEWER + OptionKind.PREFERENCE
   },
   disableHistory: {
@@ -16856,7 +16856,7 @@ class BasePreferences {
         "annotationEditorMode": -1,
         "annotationMode": 2,
         "cursorToolOnLoad": 0,
-        "defaultZoomValue": "",
+        "defaultZoomValue": "page-fit",
         "disablePageLabels": false,
         "enablePermissions": false,
         "enablePrintAutoRotate": true,
