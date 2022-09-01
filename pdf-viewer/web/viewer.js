@@ -825,7 +825,7 @@ const defaultOptions = {
     kind: OptionKind.VIEWER + OptionKind.PREFERENCE
   },
   viewerCssTheme: {
-    value: 0,
+    value: 1,
     kind: OptionKind.VIEWER + OptionKind.PREFERENCE
   },
   viewOnLoad: {
@@ -16873,7 +16873,7 @@ class BasePreferences {
         "spreadModeOnLoad": -1,
         "textLayerMode": 1,
         "useOnlyCssZoom": false,
-        "viewerCssTheme": 0,
+        "viewerCssTheme": 1,
         "viewOnLoad": 0,
         "disableAutoFetch": false,
         "disableFontFace": false,
