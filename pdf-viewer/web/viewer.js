@@ -3534,7 +3534,7 @@ const PDFViewerApplication = {
 exports.PDFViewerApplication = PDFViewerApplication;
 let validateFileURL;
 {
-  const HOSTED_VIEWER_ORIGINS = ["null", "https://graasp-assets.dev.graasp.org/", "https://graasp-assets.stage.graasp.org/", "https://graasp-assets.graasp.org/"];
+  const HOSTED_VIEWER_ORIGINS = ["null", "https://assets.dev.graasp.org/", "https://assets.stage.graasp.org/", "https://assets.graasp.org/"];
 
   validateFileURL = function (file) {
     if (!file) {
